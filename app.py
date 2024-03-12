@@ -3,9 +3,7 @@ import os
 
 app = Flask(__name__)
 
-# Configurando o diretório estático para arquivos CSS e ícones
-app.static_folder = 'static'
-
+app.static_folder = ''
 
 @app.route('/')
 def index():
