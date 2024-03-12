@@ -1,0 +1,159 @@
+/* Define as variáveis para o esquema de cores */
+:root {
+    --background-dark: #0e121be5;
+    --text-light: #ffffff;
+    --accent-color: #007bff;
+}
+
+/* Estilo global do corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #090e18d2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilo das seções e área social */
+section,
+#social {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para títulos secundários */
+h2 {
+    color: var(--text-light);
+}
+
+/* Estilo para listas e ícones sociais */
+ul,
+#social ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li,
+#social li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para links sociais */
+#social a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Efeito de destaque ao passar o mouse nos links sociais */
+#social a:hover {
+    color: var(--accent-color);
+}
+
+/* Estilos responsivos para dispositivos com largura máxima de 600px */
+@media (max-width: 600px) {
+    section,
+    #social {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #social a {
+        font-size: 20px;
+    }
+}
+
+.content-with-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.img-profile {
+    margin-left: 5%; 
+    width: 100%; 
+    max-width: 190px; 
+}
+
+.text-apresentation {
+    max-width: 100%; 
+    margin: 0 5%; 
+    text-align: justify;
+}
+
+.text-education {
+    width: 500px;
+    margin-right: 20px; /* Adicione uma margem direita para separar os elementos */
+    text-align: right;
+    display: inline-block; /* Adiciona a propriedade para tornar os elementos inline-block */
+}
+
+.icon-education {
+    margin-left: 5%; /* Porcentagem ou unidade relativa para melhor responsividade */
+    width: 100%; /* Ajuste para ocupar 100% da largura da caixa pai */
+    max-width: 30px; /* Limita a largura máxima para garantir uma boa aparência em telas maiores */
+}
+
+.text-about-IA {
+    max-width: 100%; /* Ajuste para ocupar 100% da largura da caixa pai */
+    margin: 0 auto; /* Centralizar o texto na seção */
+    text-align: justify;
+}
+
+.icon-size {
+    width: 180px; /* Ajuste conforme necessário para diminuir o tamanho da imagem */
+}
+
+.education-item {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
+    margin-bottom: 10px; /* Adapte conforme necessário para o espaçamento entre os itens */
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Adicione ou ajuste estas regras no seu arquivo CSS */
+
+.title-education {
+    margin-right: 5%; /* Porcentagem ou unidade relativa para melhor responsividade */
+    text-align: left; /* Centraliza os títulos dentro das seções */
+    margin-bottom: 20px; /* Adapte conforme necessário para o espaçamento entre os títulos e o conteúdo */
+}
+
+.title-about-IA {
+    text-align: center;
+}
+
+.title-contato {
+    text-align: center;
+}
