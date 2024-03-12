@@ -1,3 +1,5 @@
-# Site de apresentação
+# Site de Apresentação Pessoal
 
-Foi desenvolvido um site estático com objetivo de ser uma apresentação pessoal minha, para que profissionais e recrutadores possa saber mais como eu posso colaborar sendo um profissional da área de IA.
+Foi criado um site estático com a finalidade de apresentar quem eu sou, oferecendo uma visão mais abrangente sobre minha trajetória profissional e habilidades na área de Inteligência Artificial. O site visa proporcionar aos profissionais e recrutadores uma compreensão mais detalhada sobre como posso contribuir e agregar valor como especialista em IA.
+
+![banner](banner.png)
