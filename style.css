@@ -126,7 +126,8 @@ li,
 }
 
 .text-education {
-    width: 500px;
+    font-size: 15px;
+    width: 450px;
     margin-right: 20px; /* Adicione uma margem direita para separar os elementos */
     text-align: right;
     display: inline-block; /* Adiciona a propriedade para tornar os elementos inline-block */
@@ -160,20 +161,16 @@ li,
     margin-bottom: 10px;
 }
 
-/* Adicione ou ajuste estas regras no seu arquivo CSS */
-
 .title-education {
     margin-right: 5%; /* Porcentagem ou unidade relativa para melhor responsividade */
     text-align: left; /* Centraliza os títulos dentro das seções */
-    margin-bottom: 20px; /* Adapte conforme necessário para o espaçamento entre os títulos e o conteúdo */
+    margin-bottom: 16px; /* Adapte conforme necessário para o espaçamento entre os títulos e o conteúdo */
+    font-size: 18px;
 }
 
 .title-about-IA {
     text-align: center;
-}
-
-.title-contato {
-    text-align: center;
+    margin-bottom: 45px;
 }
 
 /* Adaptação para títulos e texto responsivos */
@@ -199,3 +196,66 @@ li,
     }
 }
 
+/* Estilos para a seção de contatos em telas grandes */
+#social {
+    text-align: center;
+    padding: 20px;
+}
+
+.title-contato {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+
+}
+
+#social ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon-size {
+    font-size: 36px;
+}
+
+/* Estilos para a seção de contatos em telas pequenas (mobile) */
+@media only screen and (max-width: 600px) {
+    #social {
+        padding: 10px; /* Reduz o espaçamento para telas menores */
+    }
+
+    .title-contato {
+        font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
+        margin-bottom: 20px;
+    }
+
+    #social ul li {
+        margin: 0 5px; /* Reduz a margem entre os ícones para telas menores */
+    }
+
+    .icon-size {
+        font-size: 24px; /* Reduz o tamanho dos ícones para telas menores */
+    }
+}
+
+/* Estilos para o rodapé */
+footer {
+    font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center;
+    padding: 10px; /* Adapte o espaçamento conforme necessário */
+    background-color: #090e18d2; /* Cor de fundo do rodapé */
+    color: white;
+}
+
+/* Estilos para o rodapé em telas pequenas (mobile) */
+@media only screen and (max-width: 600px) {
+    footer {
+        font-size: 8px; /* Tamanho da fonte reduzido para telas menores */
+        padding: 8px; /* Espaçamento reduzido para telas menores */
+    }
+}
