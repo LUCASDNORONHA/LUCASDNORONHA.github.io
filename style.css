@@ -56,7 +56,7 @@ li,
     margin-right: 10px;
     background-color: var(--background-dark);
     color: var(--text-light);
-    padding: 5px 10px;
+    padding: 5px 40px;
     border-radius: 5px;
 }
 
@@ -123,7 +123,7 @@ li,
     }
 
     .img-profile {
-        max-width: 50%;
+        max-width: 90%;
     }
 
     .text-apresentation {
@@ -243,6 +243,7 @@ li,
     }
 
     #social ul li {
+        display: inline-block;
         margin: 0 5px; 
     }
     .icon-size {
@@ -262,7 +263,11 @@ footer {
 /* Rodapé Mobile */
 @media only screen and (max-width: 600px) {
     footer {
-        font-size: 8px;
-        padding: 8px;
+        font-size: 12px;
+        padding: 10px;
     }
+}
+
+.gray-section {
+    background-color: #090e18d2;
 }
