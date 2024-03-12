@@ -107,6 +107,24 @@ li,
     text-align: justify;
 }
 
+/* Adaptação para telas menores (mobile) */
+@media (max-width: 600px) {
+    .content-with-image {
+        flex-direction: column-reverse; /* Inverte a direção da flexão para dispositivos móveis */
+        align-items: center;
+    }
+
+    .img-profile {
+        max-width: 50%; /* Ajusta a largura da imagem para ocupar toda a largura do contêiner pai */
+    }
+
+    .text-apresentation {
+        max-width: 100%;
+        margin: 0 5%;
+        text-align: justify;
+    }
+}
+
 .text-education {
     width: 500px;
     margin-right: 20px; /* Adicione uma margem direita para separar os elementos */
@@ -157,3 +175,27 @@ li,
 .title-contato {
     text-align: center;
 }
+
+/* Adaptação para títulos e texto responsivos */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Adaptação para seções responsivas */
+@media (max-width: 600px) {
+    section,
+    #social {
+        padding: 10px;
+    }
+}
+
