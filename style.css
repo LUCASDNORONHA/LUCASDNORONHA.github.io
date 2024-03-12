@@ -84,6 +84,11 @@ li,
         font-size: 18px;
     }
 
+    h3 {
+        font-size: 16PX;
+        margin-bottom: 25px;;
+    }
+
     #social a {
         font-size: 20px;
     }
