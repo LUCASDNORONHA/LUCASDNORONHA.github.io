@@ -1,4 +1,4 @@
-/* Define as variáveis para o esquema de cores */
+/* Definição das variáveis para o esquema de cores */
 :root {
     --background-dark: #0e121be5;
     --text-light: #ffffff;
@@ -110,12 +110,12 @@ li,
 /* Adaptação para telas menores (mobile) */
 @media (max-width: 600px) {
     .content-with-image {
-        flex-direction: column-reverse; /* Inverte a direção da flexão para dispositivos móveis */
+        flex-direction: column-reverse; 
         align-items: center;
     }
 
     .img-profile {
-        max-width: 50%; /* Ajusta a largura da imagem para ocupar toda a largura do contêiner pai */
+        max-width: 50%;
     }
 
     .text-apresentation {
@@ -128,31 +128,31 @@ li,
 .text-education {
     font-size: 15px;
     width: 450px;
-    margin-right: 20px; /* Adicione uma margem direita para separar os elementos */
+    margin-right: 20px; 
     text-align: right;
-    display: inline-block; /* Adiciona a propriedade para tornar os elementos inline-block */
+    display: inline-block; 
 }
 
 .icon-education {
-    margin-left: 5%; /* Porcentagem ou unidade relativa para melhor responsividade */
-    width: 100%; /* Ajuste para ocupar 100% da largura da caixa pai */
-    max-width: 30px; /* Limita a largura máxima para garantir uma boa aparência em telas maiores */
+    margin-left: 5%;
+    width: 100%;
+    max-width: 30px;
 }
 
 .text-about-IA {
-    max-width: 100%; /* Ajuste para ocupar 100% da largura da caixa pai */
-    margin: 0 auto; /* Centralizar o texto na seção */
+    max-width: 100%;
+    margin: 0 auto;
     text-align: justify;
 }
 
 .icon-size {
-    width: 180px; /* Ajuste conforme necessário para diminuir o tamanho da imagem */
+    width: 180px;
 }
 
 .education-item {
     display: flex;
-    align-items: center; /* Alinha verticalmente o ícone e o texto */
-    margin-bottom: 10px; /* Adapte conforme necessário para o espaçamento entre os itens */
+    align-items: center; 
+    margin-bottom: 10px;
 }
 
 .course-item {
@@ -196,7 +196,7 @@ li,
     }
 }
 
-/* Estilos para a seção de contatos em telas grandes */
+/* Seção de contatos para Web */
 #social {
     text-align: center;
     padding: 20px;
@@ -223,39 +223,38 @@ li,
     font-size: 36px;
 }
 
-/* Estilos para a seção de contatos em telas pequenas (mobile) */
+/* Seção contato para mobile */
 @media only screen and (max-width: 600px) {
     #social {
-        padding: 10px; /* Reduz o espaçamento para telas menores */
+        padding: 10px;
     }
 
     .title-contato {
-        font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
     #social ul li {
-        margin: 0 5px; /* Reduz a margem entre os ícones para telas menores */
+        margin: 0 5px; 
     }
-
     .icon-size {
-        font-size: 24px; /* Reduz o tamanho dos ícones para telas menores */
+        font-size: 20px; 
     }
 }
 
-/* Estilos para o rodapé */
+/* Rodapé Web */
 footer {
-    font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 14px;
     text-align: center;
-    padding: 10px; /* Adapte o espaçamento conforme necessário */
-    background-color: #090e18d2; /* Cor de fundo do rodapé */
+    padding: 10px;
+    background-color: #090e18d2;
     color: white;
 }
 
-/* Estilos para o rodapé em telas pequenas (mobile) */
+/* Rodapé Mobile */
 @media only screen and (max-width: 600px) {
     footer {
-        font-size: 8px; /* Tamanho da fonte reduzido para telas menores */
-        padding: 8px; /* Espaçamento reduzido para telas menores */
+        font-size: 8px;
+        padding: 8px;
     }
 }
